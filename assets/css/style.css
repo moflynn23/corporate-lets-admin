@@ -1,13 +1,56 @@
+body {
+    background-color: #9EC375;
+    z-index: 0;
+    padding-top: 50px;
+}
+
 h1 {
     color: black;
 }
 
 .container {
+    border-radius: 10px;
+    border: 2px solid #637A46;
     background-color: white;
+    padding: 30px 50px; 
     width: 400px;
-    height: 700px;
+    height: 520px; 
+    z-index: 1;
 }
 
 input, label {
     display:block;
+}
+
+.password-lbl {
+    display:inline-block;
+    margin-right:130px;
+} 
+
+.forgot-password {
+    display:inline-block;
+    font-size: smaller;
+} 
+
+.email, .password, .log-in {
+    width: 300px;
+    border-radius: 2px;
+    border: 1px solid #637A46;
+    padding: 4px;
+}
+
+.log-in {
+    border-radius: 5px;
+    border: 2px solid green;
+    color: white;
+    background-color: green;
+    padding: 10px;
+}
+
+label {
+    padding-bottom: 0;
+}
+
+div {
+    padding-bottom: 32px;
 }

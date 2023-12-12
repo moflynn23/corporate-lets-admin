@@ -15,28 +15,35 @@
 
     <div class="container">
 
-        <div>
-            <h1>Log in to Corporate Lets</h1>
+        <div id="logo" align="center">
+            <img src="images/cl-logo.png" alt="Corporate Lets logo" height="75%" width="75%">        
         </div>
 
         <div>
-            <label for="your-email">Email address</label>
-            <input type="email" name="your-email" required>
+            <h3>Log in</h3>
+            <p>Please sign in to continue.</p>
         </div>
 
         <div>
-            <label for="your-password">Password</label>
-            <input type="password" name="your-password" required>
+            <label for="email">Email address</label>
+            <input type="email" name="email" class="email" required>
         </div>
 
         <div>
+            <label for="password" class="password-lbl">Password</label>
+            <a href="#" class="forgot-password">Forgot password?</a>
+            <input type="password" name="password" class="password" required>
+        </div>
+
+        
+
+        <!---<div>
             <label for="keep-me-logged-in">Keep me logged in</label>
             <input type="checkbox" name="keep-me-logged-in">
-            <a href="#">Forgot password?</a>
-        </div>
+        </div>--->
 
         <div>
-            <input type="button" name="sign-in" value="Sign In">
+            <input type="button" name="log-in" class="log-in" value="Log In">
         </div>
 
     </div>
