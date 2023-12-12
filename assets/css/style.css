@@ -1,9 +1,13 @@
 h1 {
-    color: blue;
+    color: black;
 }
 
 .container {
-    background-color: green;
+    background-color: white;
     width: 400px;
     height: 700px;
+}
+
+input, label {
+    display:block;
 }
